@@ -119,3 +119,5 @@ export ZSH_FZF_HISTORY_SEARCH_FZF_EXTRA_ARGS="-i --no-multi --height=10% --layou
 export ZSH_FZF_HISTORY_SEARCH_EVENT_NUMBERS=0
 export ZSH_FZF_HISTORY_SEARCH_DATES_IN_SEARCH=0
 export ZSH_FZF_HISTORY_SEARCH_REMOVE_DUPLICATES='true'
+
+export OS="$(uname -o | tr '[:lower:]' '[:upper:]')"
